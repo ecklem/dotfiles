@@ -105,5 +105,5 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # GPG agent tunnel - workaround for systemd system to create a socketdir
-gpgconf --create-socketdir
-loginctl enable-linger
+# gpgconf --create-socketdir
+# loginctl enable-linger
