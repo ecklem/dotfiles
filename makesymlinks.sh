@@ -55,7 +55,7 @@ else
     if [[ $platform == 'Linux' ]]; then
         if [[ -f /etc/debian_version ]]; then
             echo "zsh isn't install, installing via apt-get"
-            sudo apt-get install zsh
+            sudo apt -y install zsh git wget
             install_zsh
             echo " ... done"
         else
